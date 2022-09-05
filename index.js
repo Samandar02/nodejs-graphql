@@ -3,7 +3,7 @@ const graphql = require('graphql')
 const { graphqlHTTP } = require('express-graphql')
 
 const data = require('./mockdata.json')
-
+//** https://www.youtube.com/watch?v=Dr2dDWzThK8 youtube mentor
 const app = express()
 const userType = new graphql.GraphQLObjectType({
     name: "user",
